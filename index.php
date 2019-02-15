@@ -57,5 +57,25 @@
         <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="/assets/js/prefixfree.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+            /*console.log(conWidth);*/
+            /*
+            (function($){
+                $(window).on('load resize', function() {
+                    var conWidth = $('body').width();
+                    if (conWidth >= 1199) {
+                        $('body').removeClass("opened");
+                        $('.nav-btn-area > .btn-nav').removeClass("btn-close");
+                    }
+                });
+                $(document).on('click', '#quick-nav .btn-top', function(e) {
+                    $('html, body').stop().animate({
+                        scrollTop: 0
+                    });
+                    e.preventDefault();
+                });
+            })(jQuery);
+            */
+        </script>
     </body>
 </html>
