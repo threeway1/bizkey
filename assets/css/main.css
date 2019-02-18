@@ -403,4 +403,133 @@ a {
     .container {
       max-width: 1200px; } }
 
-/*# sourceMappingURL=common.css.map */
+#visual .jumbo-slide {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 190px; }
+  #visual .jumbo-slide .slick-list, #visual .jumbo-slide .slick-track {
+    overflow: hidden; }
+  #visual .jumbo-slide .slick-slide {
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover; }
+    #visual .jumbo-slide .slick-slide .slogan {
+      text-align: center;
+      width: 100%;
+      height: 190px;
+      padding-top: 70px; }
+      #visual .jumbo-slide .slick-slide .slogan h2 {
+        font-weight: lighter;
+        font-size: 22px;
+        color: #fff;
+        letter-spacing: 1px;
+        line-height: 27px;
+        text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.44);
+        font-family: 'Roboto Slab', serif; }
+        #visual .jumbo-slide .slick-slide .slogan h2 strong {
+          display: block;
+          font-weight: bold; }
+      #visual .jumbo-slide .slick-slide .slogan p {
+        font-size: 12px;
+        color: #fff;
+        text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.44);
+        margin-top: 15px; }
+    #visual .jumbo-slide .slick-slide.first {
+      background-image: url(/assets/images/main/img_xs_slider01.jpg); }
+    #visual .jumbo-slide .slick-slide.second {
+      background-image: url(/assets/images/main/img_xs_slider02.jpg); }
+    #visual .jumbo-slide .slick-slide.third {
+      background-image: url(/assets/images/main/img_xs_slider03.jpg); }
+  #visual .jumbo-slide .slick-dots {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    text-align: center; }
+    #visual .jumbo-slide .slick-dots li {
+      display: inline-block; }
+      #visual .jumbo-slide .slick-dots li button {
+        width: 12px;
+        height: 12px;
+        text-indent: -999999px;
+        padding: 0;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: #848587;
+        border: 1px solid #848587; }
+      #visual .jumbo-slide .slick-dots li.slick-active button {
+        border-color: #fff;
+        background: none; }
+@media (min-width: 768px) {
+  #visual .jumbo-slide {
+    height: 300px; }
+    #visual .jumbo-slide .slick-slide {
+      height: 300px; }
+      #visual .jumbo-slide .slick-slide .slogan {
+        height: 300px;
+        padding-top: 140px; }
+        #visual .jumbo-slide .slick-slide .slogan h2 {
+          font-size: 28px; }
+          #visual .jumbo-slide .slick-slide .slogan h2 strong {
+            display: inline-block; }
+        #visual .jumbo-slide .slick-slide .slogan p {
+          font-size: 14px;
+          margin-top: 20px; }
+    #visual .jumbo-slide .slick-dots {
+      top: 110px; } }
+@media (min-width: 992px) {
+  #visual .jumbo-slide {
+    height: 630px; }
+    #visual .jumbo-slide .slick-slide {
+      height: 630px; }
+      #visual .jumbo-slide .slick-slide .slogan {
+        height: 630px;
+        padding-top: 300px; }
+        #visual .jumbo-slide .slick-slide .slogan h2 {
+          font-size: 42px; }
+          #visual .jumbo-slide .slick-slide .slogan h2 strong {
+            display: inline-block; }
+        #visual .jumbo-slide .slick-slide .slogan p {
+          font-size: 17px;
+          margin-top: 30px; }
+      #visual .jumbo-slide .slick-slide.first {
+        background-image: url(/assets/images/main/img_xl_slider01.jpg); }
+      #visual .jumbo-slide .slick-slide.second {
+        background-image: url(/assets/images/main/img_xl_slider02.jpg); }
+      #visual .jumbo-slide .slick-slide.third {
+        background-image: url(/assets/images/main/img_xl_slider03.jpg); }
+    #visual .jumbo-slide .slick-dots {
+      top: 200px; } }
+
+.business {
+  text-align: center;
+  padding: 25px 0 20px; }
+  .business .section-header {
+    padding-bottom: 20px; }
+    .business .section-header h3 {
+      font-size: 18px;
+      color: #333;
+      font-weight: 500; }
+    .business .section-header p {
+      font-size: 14px;
+      color: #888;
+      margin-top: 10px; }
+  .business .section-content > ul > li ~ li figure {
+    margin-top: 30px; }
+  .business .section-content > ul > li figure figcaption {
+    position: relative;
+    padding-top: 25px; }
+    .business .section-content > ul > li figure figcaption:before {
+      position: absolute;
+      top: -20px;
+      left: 50%;
+      margin-left: -1px;
+      content: "";
+      height: 40px;
+      width: 2px;
+      display: block;
+      background-color: #0576e0; }
+
+/*# sourceMappingURL=main.css.map */
