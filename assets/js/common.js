@@ -40,4 +40,50 @@
     $(document).on('mouseleave','#header > .container', function(){
         $('body').removeClass('opened');
     });
+    
+    $(document).ready(function(){
+        $('.partner-list').slick({
+            autoplay: true,
+            autoplaySpeed: 4000,
+            dots: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            prevArrow: '<button class="slick-prev slick-arrow" type="button"><i class="icon-left-open-big"></i></button>',
+            nextArrow: '<button class="slick-next slick-arrow" type="button"><i class="icon-right-open-big"></i></button>',
+            responsive: [
+                {
+                breakpoint: 992,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 1,
+                    }
+                },
+                {
+                breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+    });
+    $(window).on('load', function(){
+        $('.partner-list').addClass('on');
+    });
+    
+    $(window).on('scroll', function(){
+        if ($(this).scrollTop() > 0) {
+            $('body').addClass('scrolled');
+        } else {
+            $('body').removeClass('scrolled');
+        }
+    });
+    $(document).on('click', '.btn-top', function(e){
+        $('html, body').stop().animate({
+            scrollTop: 0
+        });
+        e.preventDefault();
+    });
 })(jQuery);

@@ -108,10 +108,6 @@
             <h2 class="logo">
                 <a href="/">
                     <img src="/assets/images/logo_gnb.jpg" alt="logo">
-                    <p>
-                        <strong>Bizkey Consulting</strong>
-                        주식회사 비즈키컨설팅
-                    </p>
                 </a>
             </h2>
         </div>
